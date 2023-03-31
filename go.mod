@@ -223,6 +223,8 @@ replace (
 	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.46.10-ledger.1
 	// use Evmos geth fork
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26
+	// replace evm in evmos/evmos/v12 to evm in Switcheo/ethermint
+	github.com/evmos/evmos/v12/x/evm => github.com/Switcheo/ethermint/x/evm v0.21.1-0.20230323080554-c92e209cf3aa
 	// Security Advisory https://github.com/advisories/GHSA-h395-qcrw-5vmq
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.7
 	// use cosmos flavored protobufs
